@@ -1,0 +1,185 @@
+/* Basic CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #FF0000;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav a {
+ 
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.hero {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.top-destinations {
+    padding: 20px;
+    text-align: center;
+}
+
+.top-destinations h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.destination {
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.team-leads {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.team-leads h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    width: 180px;
+    margin: 10px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.statistics {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF0000;
+    color: #000000;
+    text-align: center;
+}
+
+.statistics .stat h3 {
+    font-size: 30px;
+	
+}
+
+.testimonials {
+    padding: 20px;
+    text-align: center;
+	 background-color: #FFFFFF;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+	
+}
+
+.testimonial {
+    margin: 20px 0;
+	 background-color: #FF6666;
+  
+}
+
+.contact {
+    padding: 20px;
+    text-align: center;
+  
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact form input,
+.contact form button,
+.contact form label {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
